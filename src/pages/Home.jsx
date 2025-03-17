@@ -1,4 +1,5 @@
 import React from "react";
+import CourseGrid from "../components/CourseGrid";
 
 const Home = () => {
   return (
@@ -54,10 +55,10 @@ const Home = () => {
         </div>
         <hr />
         <div>
-          <p className="text-4xl font-bold">34K +</p>
+          <p className="text-7xl font-bold">34K +</p>
           <p>Success Stories</p>
         </div>
-        <hr/>
+        <hr />
         <div>
           <p className="text-4xl font-bold">34K +</p>
           <p>Success Stories</p>
@@ -69,25 +70,98 @@ const Home = () => {
         </div>
         <hr />
       </div>
-      <div className="grid-cols-2">
-        <div className="col-span-1">
-            <p className="text-gray-200">WHO WE ARE</p>
-            <h2>Your Online Learning Partner </h2>
-            <p>Egestas faucibus nisl et ultricies. Tempus lectus condimentum tristique mauris id vitae. Id pulvinar a eget vitae pellentesque ridiculus platea. Vulputate cursus.</p>
+
+      {/* who we are  */}
+      <div className="grid grid-cols-2 px-36 my-36">
+        <div className="col-span-1 px-24 flex flex-col gap-4">
+          <p className="text-green-300 text-lg">WHO WE ARE</p>
+          <h2 className="text-6xl text-black font-semibold">
+            Your Online Learning Partner{" "}
+          </h2>
+          <p className="text-gray-400 text-lg">
+            Egestas faucibus nisl et ultricies. Tempus lectus condimentum
+            tristique mauris id vitae. Id pulvinar a eget vitae pellentesque
+            ridiculus platea. Vulputate cursus.
+          </p>
         </div>
-        <div className="bg-gray-300 rounded-lg col-span-1">
-            <p>video Course</p>
+        <div className="bg-gray-100 rounded-lg col-span-1 p-8 flex flex-col gap-4">
+          <div className="flex justify-between">
+            <p className="text-xl font-semibold">video Course</p>
             <p>(1/110)</p>
-            <div className="text-gray-400">
-                <div className="px-4 py-2 flex justify-between">
-                    <p>Introduction</p>
-                    <p>7:00</p>
-                </div>
-                <div>
-                    <p className="bg-primary-500 text-white">Social Media Marketing</p>
-                    <p>65:00</p>
-                </div>
+          </div>
+          <div className=" flex flex-col gap-4">
+            <div className="p-3 flex justify-between bg-blue-500 text-gray-50 rounded-lg">
+              <p>Introduction</p>
+              <p>7:00</p>
             </div>
+            <div className="p-3 flex justify-between">
+              <p className="text-gray-500">Social Media Marketing</p>
+              <p>65:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* options/featurs */}
+      <div className="  flex gap-4 justify-center">
+        <div className="bg-gray-200 rounded-lg w-80 h-56 p-4">
+          <h6 className="text-2xl font-semibold mb-4">Online Courses</h6>
+          <p className="text-gray-500 text-sm">
+            Egestas faucibus nisl et ultricies. Tempus lectus condimentum
+            tristique mauris id vitae. Id pulvinar eget vitae.
+          </p>
+        </div>
+        <div className="bg-gray-200 rounded-lg w-80 h-56 p-4">
+          <h6 className="text-2xl font-semibold mb-4">Online Courses</h6>
+          <p className="text-gray-500 text-sm">
+            Egestas faucibus nisl et ultricies. Tempus lectus condimentum
+            tristique mauris id vitae. Id pulvinar eget vitae.
+          </p>
+        </div>
+        <div className="bg-gray-200 rounded-lg w-80 h-56 p-4">
+          <h6 className="text-2xl font-semibold mb-4">Online Courses</h6>
+          <p className="text-gray-500 text-sm">
+            Egestas faucibus nisl et ultricies. Tempus lectus condimentum
+            tristique mauris id vitae. Id pulvinar eget vitae.
+          </p>
+        </div>
+      </div>
+      {/* Featured courses */}
+      <div className="p-36 my-36 flex flex-col gap-4 text-center bg-gray-100">
+        <p className="text-green-500 text-lg">FEATURED COURSES</p>
+        <h2 className="text-gray-900 font-semibold text-5xl">
+          Browse Our Popular Courses
+        </h2>
+        <p className="text-gray-500 text-sm">
+          Egestas faucibus nisl et ultricies. Tempus lectus condimentum
+          tristique mauris id vitae. Id <br /> pulvinar a eget vitae
+          pellentesque ridiculus platea. Vulputate cursus.
+        </p>
+        <div className="grid grid-cols-3 my-12 mx-30">
+          <CourseGrid />
+          <CourseGrid />
+          <CourseGrid />
+          <CourseGrid />
+          <CourseGrid />
+          <CourseGrid />
+        </div>
+        <div>
+
+        <button className="text-gray-900 rounded-4xl cursor-pointer bg-amber-300 p-4 w-fit">Explore all Courses</button>
+        </div>
+      </div>
+      {/* why choose us? */}
+      <div className="flex gap-8">
+        <div className="flex flex-col gap-4">
+          <div className="rounded-lg bg-amber-500 "></div>
+          <div className="bg-gray-500 rounded-lg text-gray-900 flex-1 p-4"> Learn at your own pace with lifetime access on mobile and desktop</div>
+        </div>
+        <div className="flex flex-col gap-4">
+          <p>WHY CHOOSE US</p>
+          <h2>Your Learning Journey, Your Way</h2>
+          <p>Nibh consectetur morbi fusce aliquet scelerisque. Quis dis orci eleifend vel at sed et. Laoreet tristique ut fringilla augue vitae. Turpis volutpat morbi risus imperdiet viverra odio. Fringilla sit ut mattis.</p>
+          <div></div>
+
         </div>
       </div>
     </div>
