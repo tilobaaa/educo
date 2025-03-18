@@ -50,7 +50,7 @@ const Home = () => {
       </div>
       <div className="bg-blue-500 text-white flex items-center justify-center gap-8 py-8">
         <div>
-          <p className="text-4xl font-bold">34K +</p>
+          <p className="text-7xl font-bold">34K +</p>
           <p>Success Stories</p>
         </div>
         <hr />
@@ -60,12 +60,12 @@ const Home = () => {
         </div>
         <hr />
         <div>
-          <p className="text-4xl font-bold">34K +</p>
+          <p className="text-7xl font-bold">34K +</p>
           <p>Success Stories</p>
         </div>
         <hr />
         <div>
-          <p className="text-4xl font-bold">34K +</p>
+          <p className="text-7xl font-bold">34K +</p>
           <p>Success Stories</p>
         </div>
         <hr />
@@ -146,23 +146,274 @@ const Home = () => {
           <CourseGrid />
         </div>
         <div>
-
-        <button className="text-gray-900 rounded-4xl cursor-pointer bg-amber-300 p-4 w-fit">Explore all Courses</button>
+          <button className="text-gray-900 rounded-4xl cursor-pointer bg-amber-300 p-4 w-fit">
+            Explore all Courses
+          </button>
         </div>
       </div>
       {/* why choose us? */}
-      <div className="flex gap-8">
+      <div className="flex gap-8 mx-64">
         <div className="flex flex-col gap-4">
-          <div className="rounded-lg bg-amber-500 "></div>
-          <div className="bg-gray-500 rounded-lg text-gray-900 flex-1 p-4"> Learn at your own pace with lifetime access on mobile and desktop</div>
+          <div className="rounded-lg bg-amber-500 w-full h-100"></div>
+          <div className="bg-gray-100 rounded-lg text-gray-900 flex-1 p-4">
+            {" "}
+            Learn at your own pace with lifetime access on mobile and desktop
+          </div>
         </div>
         <div className="flex flex-col gap-4">
-          <p>WHY CHOOSE US</p>
-          <h2>Your Learning Journey, Your Way</h2>
-          <p>Nibh consectetur morbi fusce aliquet scelerisque. Quis dis orci eleifend vel at sed et. Laoreet tristique ut fringilla augue vitae. Turpis volutpat morbi risus imperdiet viverra odio. Fringilla sit ut mattis.</p>
-          <div></div>
-
+          <p className="text-sm text-green-500">WHY CHOOSE US</p>
+          <h2 className="text-7xl text-gray-900 ">
+            Your Learning Journey, <br /> Your Way
+          </h2>
+          <p>
+            Nibh consectetur morbi fusce aliquet scelerisque. Quis dis orci
+            eleifend vel at <br />
+            sed et. Laoreet tristique ut fringilla augue vitae. Turpis volutpat
+            morbi risus <br />
+            imperdiet viverra odio. Fringilla sit ut mattis.
+          </p>
+          <div className="flex flex-col gap-4 my-8">
+            <div className="flex gap-4">
+              <img src="" alt="" />
+              <div className="flex flex-col gap-3">
+                <h6 className="text-gray-900 font-semibold">
+                  High-Quality Content Course
+                </h6>
+                <p className="text-gray-500">
+                  Enim amet enim volutpat luctus ipsum pellentesque massa nisl
+                  sed. Sit ut nibh odio morbi diam. Mi euismod diam.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <img src="" alt="" />
+              <div className="flex flex-col gap-3">
+                <h6 className="text-gray-900 font-semibold">
+                  High-Quality Content Course
+                </h6>
+                <p className="text-gray-500">
+                  Enim amet enim volutpat luctus ipsum pellentesque massa nisl
+                  sed. Sit ut nibh odio morbi diam. Mi euismod diam.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <img src="" alt="" />
+              <div className="flex flex-col gap-3">
+                <h6 className="text-gray-900 font-semibold">
+                  High-Quality Content Course
+                </h6>
+                <p className="text-gray-500">
+                  Enim amet enim volutpat luctus ipsum pellentesque massa nisl
+                  sed. Sit ut nibh odio morbi diam. Mi euismod diam.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      {/* our instructors */}
+      <div className="flex flex-col gap-6 text-center justify-center align-center my-12 py-36 bg-gray-100 px-48 ">
+        <p className="text-lg text-green-500">OUR INSTRUCTOR</p>
+        <h6 className="text-5xl font-semibold text-gray-900">
+          Meet Our Expert Instructors
+        </h6>
+        <p className="text-sm text-gray-400">
+          Egestas faucibus nisl et ultricies. Tempus lectus condimentum
+          tristique mauris id vitae. Id <br />
+          pulvinar a eget vitae pellentesque ridiculus platea. Vulputate cursus.
+        </p>
+        <div className="grid grid-cols-4">
+          <div className="m-4 rounded-lg text-left">
+            <div className="relative h-64 bg-orange-200 p-4 rounded-t-lg">
+              <div className="absolute bottom-4 p-2 bg-gray-100 rounded-lg">
+                <img src="" alt="" />
+                <p className="text-sm text-green-300">Positive Feedback</p>
+              </div>
+            </div>
+            <div className="p-4 bg-white flex flex-col gap-2 rounded-b-lg">
+              <p className="text-xs text-gray-300">
+                Expert in Digital Marketing
+              </p>
+              <h4 className="text-3xl font-semibold text-gray-900">
+                Anthony Wade
+              </h4>
+              <div className="text-xs flex justify-between text-gray-300">
+                <p>24+h taught</p>
+                <p>video chat</p>
+              </div>
+            </div>
+          </div>
+          <div className="m-4 rounded-lg text-left">
+            <div className="relative h-64 bg-orange-200 p-4 rounded-t-lg">
+              <div className="absolute bottom-4 p-2 bg-gray-100 rounded-lg">
+                <img src="" alt="" />
+                <p className="text-sm text-green-300">Positive Feedback</p>
+              </div>
+            </div>
+            <div className="p-4 bg-white flex flex-col gap-2 rounded-b-lg">
+              <p className="text-xs text-gray-300">
+                Expert in Digital Marketing
+              </p>
+              <h4 className="text-3xl font-semibold text-gray-900">
+                Anthony Wade
+              </h4>
+              <div className="text-xs flex justify-between text-gray-300">
+                <p>24+h taught</p>
+                <p>video chat</p>
+              </div>
+            </div>
+          </div>
+          <div className="m-4 rounded-lg text-left">
+            <div className="relative h-64 bg-orange-200 p-4 rounded-t-lg">
+              <div className="absolute bottom-4 p-2 bg-gray-100 rounded-lg">
+                <img src="" alt="" />
+                <p className="text-sm text-green-300">Positive Feedback</p>
+              </div>
+            </div>
+            <div className="p-4 bg-white flex flex-col gap-2 rounded-b-lg">
+              <p className="text-xs text-gray-300">
+                Expert in Digital Marketing
+              </p>
+              <h4 className="text-3xl font-semibold text-gray-900">
+                Anthony Wade
+              </h4>
+              <div className="text-xs flex justify-between text-gray-300">
+                <p>24+h taught</p>
+                <p>video chat</p>
+              </div>
+            </div>
+          </div>
+          <div className="m-4 rounded-lg text-left">
+            <div className="relative h-64 bg-orange-200 p-4 rounded-t-lg">
+              <div className="absolute bottom-4 p-2 bg-gray-100 rounded-lg">
+                <img src="" alt="" />
+                <p className="text-sm text-green-300">Positive Feedback</p>
+              </div>
+            </div>
+            <div className="p-4 bg-white flex flex-col gap-2 rounded-b-lg">
+              <p className="text-xs text-gray-300">
+                Expert in Digital Marketing
+              </p>
+              <h4 className="text-3xl font-semibold text-gray-900">
+                Anthony Wade
+              </h4>
+              <div className="text-xs flex justify-between text-gray-300">
+                <p>24+h taught</p>
+                <p>video chat</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* how it works */}
+      <div className="px-48">
+        <div className="grid grid-cols-2">
+          <div className="flex flex-col gap-4">
+            <p className="text-green-500 ">HOW IT WORKS</p>
+            <h3 className="text-gray-900 text-5xl font-semibold">
+              Your Online Learning Journey <br />
+              Made Easy
+            </h3>
+            <p className="text-sm ">
+              Egestas faucibus nisl et ultricies. Tempus lectus condimentum
+              tristique mauris id vitae. Id <br />
+              pulvinar a eget vitae pellentesque ridiculus platea. Vulputate
+              cursus.
+            </p>
+          </div>
+        </div>
+        <div className="grid grid-cols-3 my-8">
+          <div className="flex flex-col gap-4">
+            <p className="p-4 rounded-full bg-blue-500 text-white text-lg w-fit">
+              01
+            </p>
+            <div className="flex flex-col gap-2">
+              <h6 className="font-semibold text-3xl">Choose Your Course</h6>
+              <p className="text-gray-500">
+                Egestas faucibus nisl et ultricies. Tempus <br />
+                lectus condimentum tristique.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-4">
+            <p className="p-4 rounded-full bg-blue-500 text-white text-lg w-fit">
+              02
+            </p>
+            <div className="flex flex-col gap-2">
+              <h6 className="font-semibold text-3xl">Choose Your Course</h6>
+              <p className="text-gray-500">
+                Egestas faucibus nisl et ultricies. Tempus <br />
+                lectus condimentum tristique.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-4">
+            <p className="p-4 rounded-full bg-blue-500 text-white text-lg w-fit">
+              03
+            </p>
+            <div className="flex flex-col gap-2">
+              <h6 className="font-semibold text-3xl">Choose Your Course</h6>
+              <p className="text-gray-500">
+                Egestas faucibus nisl et ultricies. Tempus <br />
+                lectus condimentum tristique.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* testimonials */}
+      <div className="bg-gray-100 px-48 py-12 grid grid-cols-2">
+        <div className="rounded-lg bg-orange-300 relative mx-24 p-8">
+          <div className="absolute bottom-8">
+            <h6 className="text-gray-50 font-semibold">Roger Rester</h6>
+            <p className="text-gray-100 text-sm">UI/UX Designer</p>
+          </div>
+        </div>
+        <div className="flex flex-col gap-6 m-16">
+          <h4 className="text-3xl font-semibold  ">
+            This course was comprehensive and covered everything i needed to
+            know about animation.
+          </h4>
+          <p className="text-gray-500 text-sm">
+            “Dui varius sed egestas et scelerisque vitae nulla. Sollicitudin
+            semper vel amet sollicitudin laoreet arcu. Adipiscing euismod auctor
+            velit amet integer erat ut sed porta. Augue eu nunc sem aliquet
+            vulputate. Vulputate libero lorem massa faucibus leo hac tortor.”
+          </p>
+          <button className="p-4 text-gray-900 bg-amber-400 rounded-3xl w-fit">
+            Read More Testimonials
+          </button>
+        </div>
+      </div>
+      {/* call to action */}
+      <div className="my-16 flex flex-col gap-8 justify-center items-center">
+        <p className="text-green-500">CALL TO ACTION</p>
+        <h5 className="font-semibold text-4xl">Join Educo Community</h5>
+        <p className="text-gray-500 ">
+          Egestas faucibus nisl et ultricies. Tempus lectus condimentum
+          tristique mauris id vitae. Id <br />pulvinar a eget vitae pellentesque
+          ridiculus platea. Vulputate cursus.
+        </p>
+        <div className="flex gap-6">
+          <div className="flex flex-col gap-1">
+            <h6 className="font-bold text-2xl text-gray-900">54K+ Courses</h6>
+            <p className="text-gray-500 text-sm">Sed purua moleste</p>
+          </div>
+          <div className="flex flex-col gap-1">
+            <h6 className="font-bold text-2xl text-gray-900">54K+ Courses</h6>
+            <p className="text-gray-500 text-sm">Sed purua moleste</p>
+          </div>
+          <div className="flex flex-col gap-1">
+            <h6 className="font-bold text-2xl text-gray-900">54K+ Courses</h6>
+            <p className="text-gray-500 text-sm">Sed purua moleste</p>
+          </div>
+        </div>
+        <div className="rounded-4xl bg-gray-100 p-2">
+          <input type="text" className=" p-4" placeholder="Enter email address"/>
+          <button className="bg-amber-300 text-black p-4 rounded-4xl">Get started Now </button>
+        </div>
+        <p className="text-xs text-gray-500">Your data is completely secure with us. We don't share with anyone.</p>
       </div>
     </div>
   );
