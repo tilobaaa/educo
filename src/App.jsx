@@ -3,7 +3,7 @@ import Home from './pages/Home'
 
 import './App.css'
 import NavBar from './components/NavBar'
-import SignUp from './pages/signUp'
+import SignUp from './pages/SignUp'
 import Login from './pages/Login'
 import Footer from './components/Footer'
 import Courses from './pages/Courses'
