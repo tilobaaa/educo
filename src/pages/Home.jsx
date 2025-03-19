@@ -1,5 +1,6 @@
 import React from "react";
 import CourseGrid from "../components/CourseGrid";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
