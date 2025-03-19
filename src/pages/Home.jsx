@@ -415,6 +415,7 @@ const Home = () => {
         </div>
         <p className="text-xs text-gray-500">Your data is completely secure with us. We don't share with anyone.</p>
       </div>
+      <Footer/>
     </div>
   );
 };

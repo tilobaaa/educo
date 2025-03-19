@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import SignUp from './pages/signUp'
 import Login from './pages/Login'
 import Footer from './components/Footer'
+import Courses from './pages/Courses'
 
 function App() {
   
@@ -17,8 +18,9 @@ function App() {
     <Route path="/" element={<Home />} />
     <Route path='/signup' element={<SignUp/>}/>
     <Route path='/login' element={<Login/>}/>
+    <Route path='/courses' element={<Courses/>}/>
   </Routes>
-  <Footer/>
+  
   </div>
     </BrowserRouter> )
 }
