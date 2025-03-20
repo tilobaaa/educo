@@ -1,4 +1,6 @@
 import React from "react";
+import { FiSave } from "react-icons/fi";
+import { MdAccessTime } from "react-icons/md";
 
 const CourseGrid = () => {
   return (
@@ -18,8 +20,14 @@ const CourseGrid = () => {
           The Ultimate Guide to Social Media Marketing for small Businesses
         </h2>
         <div className="text-gray-500 flex gap-4">
-          <p>12 Lessons</p>
-          <p>24hr 40Mins</p>
+          <div className="flex gap-1 items-center">
+            <FiSave />
+            <p>12 Lessons</p>
+          </div>
+          <div className="flex gap-1 items-center">
+            <MdAccessTime />
+            <p>24hr 40Mins</p>
+          </div>
         </div>
 
         <div className="flex items-center justify-between text-lg font-semibold">
