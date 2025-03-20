@@ -5,7 +5,7 @@ const CourseGrid = () => {
     <div className="rounded-lg bg-gray-50 p-4 text-left m-4">
       <div className="bg-orange-200 w-full h-64 rounded-lg"></div>
       <div className="py-2 flex flex-col gap-6">
-        <div className="flex justify-between">
+        <div className="flex justify-between text-sm">
           <p className="rounded-lg px-2 text-green-500 bg-gray-200 ">
             Digital Marketing
           </p>
