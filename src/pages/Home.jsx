@@ -214,7 +214,7 @@ const Home = () => {
         </div>
       </div>
       {/* our instructors */}
-      <div className="flex flex-col gap-6 text-center justify-center align-center my-12 py-36 bg-gray-100 px-48 ">
+      <div className="flex flex-col gap-6 text-center justify-center align-center my-12 py-12 bg-gray-100 px-48 ">
         <p className="text-lg text-green-500">OUR INSTRUCTOR</p>
         <h6 className="text-5xl font-semibold text-gray-900">
           Meet Our Expert Instructors
@@ -236,7 +236,7 @@ const Home = () => {
               <p className="text-xs text-gray-300">
                 Expert in Digital Marketing
               </p>
-              <h4 className="text-3xl font-semibold text-gray-900">
+              <h4 className="text-xl font-semibold text-gray-900">
                 Anthony Wade
               </h4>
               <div className="text-xs flex justify-between text-gray-300">
@@ -256,7 +256,7 @@ const Home = () => {
               <p className="text-xs text-gray-300">
                 Expert in Digital Marketing
               </p>
-              <h4 className="text-3xl font-semibold text-gray-900">
+              <h4 className="text-xl font-semibold text-gray-900">
                 Anthony Wade
               </h4>
               <div className="text-xs flex justify-between text-gray-300">
@@ -276,7 +276,7 @@ const Home = () => {
               <p className="text-xs text-gray-300">
                 Expert in Digital Marketing
               </p>
-              <h4 className="text-3xl font-semibold text-gray-900">
+              <h4 className="text-xl font-semibold text-gray-900">
                 Anthony Wade
               </h4>
               <div className="text-xs flex justify-between text-gray-300">
@@ -296,7 +296,7 @@ const Home = () => {
               <p className="text-xs text-gray-300">
                 Expert in Digital Marketing
               </p>
-              <h4 className="text-3xl font-semibold text-gray-900">
+              <h4 className="text-xl font-semibold text-gray-900">
                 Anthony Wade
               </h4>
               <div className="text-xs flex justify-between text-gray-300">
