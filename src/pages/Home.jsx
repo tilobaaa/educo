@@ -30,11 +30,15 @@ const Home = () => {
         {/* middle */}
         <div className="col-span-2 text-center flex flex-col gap-4">
           <p className="text-green-300">EDUCATION & ONLINE COURSES</p>
-          <h1 className="text-9xl">Learn without limits with Educo</h1>
+          <h1 className="text-7xl">Welcome to LearnX</h1>
           <p className="text-gray-500">
-            Start, switch, or advance your career with more than 5,400 courses,
-            Professional Certificates, and degrees from world-class universities
-            and companies.
+            We’re excited to have you here! Our platform is designed to make
+            learning accessible, engaging, and impactful. Whether you're a
+            student, educator, or lifelong learner, you’ll find valuable
+            resources to expand your knowledge and skills. Explore a variety of
+            courses, expert insights, and interactive tools tailored to help you
+            achieve your learning goals. Join our community and take the next
+            step in your educational journey today! Start Learning Now! 
           </p>
           <div className="flex gap-6 justify-center items-center">
             <button className="bg-amber-300 py-4 px-4 rounded-xl">
@@ -86,15 +90,10 @@ const Home = () => {
           <h2 className="text-6xl text-black font-semibold">
             Your Online Learning Partner{" "}
           </h2>
-          <p className="text-gray-400 text-lg">
-            Egestas faucibus nisl et ultricies. Tempus lectus condimentum
-            tristique mauris id vitae. Id pulvinar a eget vitae pellentesque
-            ridiculus platea. Vulputate cursus.
-          </p>
         </div>
         <div className="bg-gray-100 rounded-lg col-span-1 p-8 flex flex-col gap-4">
           <div className="flex justify-between">
-            <p className="text-xl font-semibold">video Course</p>
+            <p className="text-xl font-semibold">Video Course</p>
             <p>(1/110)</p>
           </div>
           <div className=" flex flex-col gap-4">
@@ -126,30 +125,29 @@ const Home = () => {
           <div className="flex items-center justify-center p-4 bg-blue-500 w-fit rounded-lg my-4">
             <FaBookOpen className="text-white" />
           </div>
-          <h6 className="text-2xl font-semibold mb-4">Online Courses</h6>
+          <h6 className="text-2xl font-semibold mb-4">Online Lessons</h6>
           <p className="text-gray-500 text-sm">
-            Egestas faucibus nisl et ultricies. Tempus lectus condimentum
-            tristique mauris id vitae. Id pulvinar eget vitae.
+            Learn at your own pace with expert-led courses. with our download
+            them for offline learning
           </p>
         </div>
         <div className="bg-gray-200 rounded-lg w-80 p-4">
           <div className="flex items-center justify-center p-4 bg-green-500 w-fit rounded-lg my-4">
             <MdOutlineFileUpload className="text-white" />
           </div>
-          <h6 className="text-2xl font-semibold mb-4">Online Courses</h6>
+          <h6 className="text-2xl font-semibold mb-4">Tests</h6>
           <p className="text-gray-500 text-sm">
-            Egestas faucibus nisl et ultricies. Tempus lectus condimentum
-            tristique mauris id vitae. Id pulvinar eget vitae.
+            Test your knowledge with interactive quizzes. Get instant feedback
+            and track your progress!
           </p>
         </div>
         <div className="bg-gray-200 rounded-lg w-80  p-4">
           <div className="flex items-center justify-center p-4 bg-amber-500 w-fit rounded-lg my-4">
             <LuAward className="text-white" />
           </div>
-          <h6 className="text-2xl font-semibold mb-4">Online Courses</h6>
+          <h6 className="text-2xl font-semibold mb-4">Certifications</h6>
           <p className="text-gray-500 text-sm">
-            Egestas faucibus nisl et ultricies. Tempus lectus condimentum
-            tristique mauris id vitae. Id pulvinar eget vitae.
+            Earn a certificate and level up your learning!
           </p>
         </div>
       </div>
@@ -157,20 +155,43 @@ const Home = () => {
       <div className="p-36 my-36 flex flex-col gap-4 text-center bg-gray-100">
         <p className="text-green-500 text-lg">FEATURED COURSES</p>
         <h2 className="text-gray-900 font-semibold text-5xl">
-          Browse Our Popular Courses
+          Assigned Lessons
         </h2>
         <p className="text-gray-500 text-sm">
-          Egestas faucibus nisl et ultricies. Tempus lectus condimentum
-          tristique mauris id vitae. Id <br /> pulvinar a eget vitae
-          pellentesque ridiculus platea. Vulputate cursus.
+          View Our carefully selected essons assigned by teachers
         </p>
         <div className="grid grid-cols-3 my-12 ">
-          <CourseGrid />
-          <CourseGrid />
-          <CourseGrid />
-          <CourseGrid />
-          <CourseGrid />
-          <CourseGrid />
+          <CourseGrid
+            title="Basic Technology: Introduction
+to B.tech"
+            lessons="4"
+            author="Anthony Ikechukwu"
+          />
+          <CourseGrid
+            title="Mathematics: Basics of Mathematics"
+            lessons="3"
+            author="Queen Esther"
+          />
+          <CourseGrid
+            title="Social Studies: Introduction to Social Studies"
+            lessons="2"
+            author="Dolapo Joel"
+          />
+          <CourseGrid
+            title="Computer Science: Advanced Lesson"
+            lessons="6"
+            author="Toluwani Isaac"
+          />
+          <CourseGrid
+            title="Biology: Reproduction in Animals,Mammals & Plants"
+            lessons="5"
+            author="Adam Johnson"
+          />
+          <CourseGrid
+            title="Chemistry: Understanding The periodic table"
+            lessons="2"
+            author="Amaka Edwards"
+          />
         </div>
         <div>
           <button className="text-gray-900 rounded-4xl cursor-pointer bg-amber-300 p-4 w-fit">
@@ -186,7 +207,10 @@ const Home = () => {
             <div className="p-2 bg-yellow-500 rounded-lg w-fit flex items-center justify-center">
               <IoIosStarOutline className="text-white text-2xl" />
             </div>
-            Learn at your own pace with lifetime access on mobile and desktop
+            <p>
+              Learn at your own pace, with lifetime access on mobile and
+              desktop.ccess lessons anytime—even offline!"
+            </p>
           </div>
         </div>
         <div className="flex flex-col gap-4">
@@ -194,13 +218,7 @@ const Home = () => {
           <h2 className="text-5xl text-gray-900 ">
             Your Learning Journey, <br /> Your Way
           </h2>
-          <p>
-            Nibh consectetur morbi fusce aliquet scelerisque. Quis dis orci
-            eleifend vel at <br />
-            sed et. Laoreet tristique ut fringilla augue vitae. Turpis volutpat
-            morbi risus <br />
-            imperdiet viverra odio. Fringilla sit ut mattis.
-          </p>
+
           <div className="flex flex-col gap-4 my-8">
             <div className="flex gap-4 items-start">
               <div className="flex  items-center  p-4 bg-blue-500 w-fit rounded-lg">
@@ -222,7 +240,7 @@ const Home = () => {
               </div>
               <div className="flex flex-col gap-3">
                 <h6 className="text-gray-900 font-semibold">
-                  High-Quality Content Course
+                  Interactive Learning Experience
                 </h6>
                 <p className="text-gray-500">
                   Enim amet enim volutpat luctus ipsum pellentesque massa nisl
@@ -236,7 +254,7 @@ const Home = () => {
               </div>
               <div className="flex flex-col gap-3">
                 <h6 className="text-gray-900 font-semibold">
-                  High-Quality Content Course
+                  Exceptional Student Support
                 </h6>
                 <p className="text-gray-500">
                   Enim amet enim volutpat luctus ipsum pellentesque massa nisl
@@ -329,7 +347,8 @@ const Home = () => {
             <p className="text-gray-100 text-sm">UI/UX Designer</p>
           </div>
         </div>
-        <div className="flex flex-col gap-6 my-16 mx-8">
+        <div className="flex flex-col gap-6  mx-8">
+          <FaQuoteLeft className="text-blue-500 text-5xl"/>
           <h4 className="text-2xl font-semibold  ">
             This course was comprehensive and covered everything i needed to
             know about animation.
@@ -360,11 +379,11 @@ const Home = () => {
             <p className="text-gray-500 text-sm">Sed purua moleste</p>
           </div>
           <div className="flex flex-col gap-1">
-            <h6 className="font-bold text-2xl text-gray-900">54K+ Courses</h6>
+            <h6 className="font-bold text-2xl text-gray-900">120 + Instructors</h6>
             <p className="text-gray-500 text-sm">Sed purua moleste</p>
           </div>
           <div className="flex flex-col gap-1">
-            <h6 className="font-bold text-2xl text-gray-900">54K+ Courses</h6>
+            <h6 className="font-bold text-2xl text-gray-900">80K + Members</h6>
             <p className="text-gray-500 text-sm">Sed purua moleste</p>
           </div>
         </div>

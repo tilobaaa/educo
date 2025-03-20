@@ -7,6 +7,7 @@ import SignUp from './pages/SignUp'
 import Login from './pages/Login'
 import Footer from './components/Footer'
 import Courses from './pages/Courses'
+import Dashboard from './pages/students/Dashboard'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
     <Route path='/signup' element={<SignUp/>}/>
     <Route path='/login' element={<Login/>}/>
     <Route path='/courses' element={<Courses/>}/>
+    <Route path='/dashboard' element={<Dashboard/>}/>
   </Routes>
   
   </div>

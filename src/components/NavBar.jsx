@@ -6,7 +6,7 @@ const NavBar = () => {
     <div className='flex items-center px-36 justify-between'>
       {/* left side */}
       <div className='flex items-center'>
-        <h1 className='text-3xl '>Educo</h1>
+        <h1 className='text-3xl '>LearnX</h1>
       </div>
       {/* right side */}
       <div className='flex items-center gap-4 my-8'>
