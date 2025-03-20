@@ -51,22 +51,22 @@ const Home = () => {
       </div>
       <div className="bg-blue-500 text-white flex items-center justify-center gap-8 py-8">
         <div>
-          <p className="text-7xl font-bold">34K +</p>
+          <p className="text-5xl font-bold">34K +</p>
           <p>Success Stories</p>
         </div>
         <hr />
         <div>
-          <p className="text-7xl font-bold">34K +</p>
+          <p className="text-5xl font-bold">34K +</p>
           <p>Success Stories</p>
         </div>
         <hr />
         <div>
-          <p className="text-7xl font-bold">34K +</p>
+          <p className="text-5xl font-bold">34K +</p>
           <p>Success Stories</p>
         </div>
         <hr />
         <div>
-          <p className="text-7xl font-bold">34K +</p>
+          <p className="text-5xl font-bold">34K +</p>
           <p>Success Stories</p>
         </div>
         <hr />
@@ -138,7 +138,7 @@ const Home = () => {
           tristique mauris id vitae. Id <br /> pulvinar a eget vitae
           pellentesque ridiculus platea. Vulputate cursus.
         </p>
-        <div className="grid grid-cols-3 my-12 mx-30">
+        <div className="grid grid-cols-3 my-12 ">
           <CourseGrid />
           <CourseGrid />
           <CourseGrid />
@@ -163,7 +163,7 @@ const Home = () => {
         </div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-green-500">WHY CHOOSE US</p>
-          <h2 className="text-7xl text-gray-900 ">
+          <h2 className="text-5xl text-gray-900 ">
             Your Learning Journey, <br /> Your Way
           </h2>
           <p>
@@ -371,8 +371,8 @@ const Home = () => {
             <p className="text-gray-100 text-sm">UI/UX Designer</p>
           </div>
         </div>
-        <div className="flex flex-col gap-6 m-16">
-          <h4 className="text-3xl font-semibold  ">
+        <div className="flex flex-col gap-6 my-16 mx-8">
+          <h4 className="text-2xl font-semibold  ">
             This course was comprehensive and covered everything i needed to
             know about animation.
           </h4>

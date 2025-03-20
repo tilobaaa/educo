@@ -22,7 +22,7 @@ const CourseGrid = () => {
           <p>24hr 40Mins</p>
         </div>
 
-        <div className="flex items-center justify-between text-xl font-semibold">
+        <div className="flex items-center justify-between text-lg font-semibold">
           <div className="flex gap-2 items-center ">
             <div className="bg-orange-200 rounded-full w-12 h-12"></div>
             <h5 className="text-gray-900">Anthony Wade</h5>
