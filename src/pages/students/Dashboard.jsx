@@ -8,18 +8,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 import { IoMdSearch } from "react-icons/io";
 import ActivityBar from "../../components/ActivityBar";
 
-import { Bar } from "react-chartjs-2";
 
-const data = {
-  labels: ["Sat", "SUN", "MON", "TUE", "WED", "THU", "FRI"],
-  datasets: [
-    {
-      label: "STUDY STATISTIC",
-      data: [2, 8, 4, 6, 12, 7, 7],
-      backgroundColor: "rgba(75, 192, 192, 0.6)",
-    },
-  ],
-};
 
 const Dashboard = () => {
   return (

@@ -20,8 +20,8 @@ const NavBar = () => {
             <NavLink className={({ isActive})=>isActive ? "text-black font-bold": "text-grey"} to="/contact">Contact Us</NavLink>
         </div>
         <div className='ml-12 flex gap-4'>
-            <button onClick={()=>{navigate('/login')}}>Login</button>
-            <button onClick={()=>{navigate('/signup')}}  className='rounded-xl text-white bg-blue-500 py-1 px-3 border-none'>Sign Up</button>
+            <button className='cursor-pointer' onClick={()=>{navigate('/login')}}>Login</button>
+            <button onClick={()=>{navigate('/signup')}}  className='rounded-xl text-white bg-blue-500 py-1 px-3 border-none cursor-pointer'>Sign Up</button>
         </div>
       </div>
     </div>
