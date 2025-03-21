@@ -6,6 +6,7 @@ import { MdOutlineMessage } from "react-icons/md";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { IoSettingsOutline } from "react-icons/io5";
 import { IoMdSearch } from "react-icons/io";
+import ActivityBar from "../../components/ActivityBar";
 
 import { Bar } from "react-chartjs-2";
 
@@ -72,7 +73,7 @@ const Dashboard = () => {
             </div>
            {/* charts of study stats and progress */}
            <div>
-         
+          <ActivityBar/>
            </div>
           </div>
           {/* right side */}

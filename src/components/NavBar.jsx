@@ -1,7 +1,8 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 const NavBar = () => {
+  const navigate = useNavigate();
   return (
     <div className='flex items-center px-36 justify-between'>
       {/* left side */}
@@ -19,8 +20,8 @@ const NavBar = () => {
             <NavLink className={({ isActive})=>isActive ? "text-black font-bold": "text-grey"} to="/contact">Contact Us</NavLink>
         </div>
         <div className='ml-12 flex gap-4'>
-            <button>Login</button>
-            <button className='rounded-xl text-white bg-blue-500 py-1 px-3 border-none'>Sign Up</button>
+            <button onClick={()=>{navigate('/login')}}>Login</button>
+            <button onClick={()=>{navigate('/signup')}}  className='rounded-xl text-white bg-blue-500 py-1 px-3 border-none'>Sign Up</button>
         </div>
       </div>
     </div>
