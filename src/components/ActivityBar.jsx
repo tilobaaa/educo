@@ -18,7 +18,14 @@ const data = {
     {
       label: "STUDY STATISTICS",
       data: [2, 9, 4, 5, 12, 7, 7],
-      backgroundColor: "rgba(75, 192, 192, 0.6)",
+      backgroundColor: (ctx) => {
+        const value = ctx.raw;
+        return value <= 7
+          ? "#2d9bdb39"
+          : value <= 9
+          ? "#2d9bdb87"
+          : "#2D9CDB";
+      },
     },
   ],
 };
@@ -42,7 +49,7 @@ const options = {
 
 const ActivityBar = () => {
   return (
-    <div style={{ width: "500px", height: "300px" }}>
+    <div className="w-5/6 h-full">
       <Bar data={data} options={options} />
     </div>
   );

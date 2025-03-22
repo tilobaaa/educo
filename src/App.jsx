@@ -6,6 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home";
+import StudentDashboard from "./pages/students/StudentDashboard";
+import TeacherDashboard from "./pages/teachers/TeacherDashboard";
 
 import "./App.css";
 import NavBar from "./components/NavBar";
@@ -13,7 +15,7 @@ import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
 
 import Courses from "./pages/Courses";
-import Dashboard from "./pages/students/Dashboard";
+
 
 function Layout() {
   const location = useLocation();
@@ -31,10 +33,10 @@ function Layout() {
         <Route path="/courses" element={<Courses />} />
 
         {/* Student Routes */}
-        <Route path="/student/dashboard" element={<Dashboard />} />
+        <Route path="/student/dashboard" element={<StudentDashboard />} />
 
         {/* Teacher Routes */}
-        {/* <Route path="/teacher/dashboard" element={<TeacherDashboard />} /> */}
+        <Route path="/teacher/dashboard" element={<TeacherDashboard />} />
       </Routes>
     </div>
   );
