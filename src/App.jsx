@@ -15,6 +15,9 @@ import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
 
 import Courses from "./pages/Courses";
+import Setup from "./pages/teachers/Onbaording/Setup";
+import ProfileSetup from "./pages/teachers/Onbaording/ProfileSetup";
+import ProfileSetup2 from "./pages/teachers/Onbaording/ProfileSetup2";
 
 
 function Layout() {
@@ -36,6 +39,9 @@ function Layout() {
         <Route path="/student/dashboard" element={<StudentDashboard />} />
 
         {/* Teacher Routes */}
+        <Route path="/teacher/setup" element={<Setup/>}/>
+        <Route path="/teacher/profileSetup" element={<ProfileSetup/>} />
+        <Route path="/teacher/profileSetup2" element={<ProfileSetup2/>} />
         <Route path="/teacher/dashboard" element={<TeacherDashboard />} />
       </Routes>
     </div>
