@@ -84,7 +84,7 @@ const Home = () => {
       </div>
 
       {/* who we are  */}
-      <div className="grid grid-cols-2 px-36 my-36">
+      <div id="about" className="grid grid-cols-2 px-36 my-36">
         <div className="col-span-1 px-24 flex flex-col gap-4">
           <p className="text-green-300 text-lg">WHO WE ARE</p>
           <h2 className="text-6xl text-black font-semibold">
@@ -266,7 +266,7 @@ to B.tech"
         </div>
       </div>
       {/* our instructors */}
-      <div className="flex flex-col gap-6 text-center justify-center align-center my-12 py-12 bg-gray-100 px-48 ">
+      <div id="intructors" className="flex flex-col gap-6 text-center justify-center align-center my-12 py-12 bg-gray-100 px-48 ">
         <p className="text-lg text-green-500">OUR INSTRUCTOR</p>
         <h6 className="text-5xl font-semibold text-gray-900">
           Meet Our Expert Instructors
@@ -365,7 +365,7 @@ to B.tech"
         </div>
       </div>
       {/* call to action */}
-      <div className="my-16 flex flex-col gap-8 justify-center items-center">
+      <section id="contact" className="my-16 flex flex-col gap-8 justify-center items-center">
         <p className="text-green-500">CALL TO ACTION</p>
         <h5 className="font-semibold text-4xl">Join Educo Community</h5>
         <p className="text-gray-500 ">
@@ -400,7 +400,7 @@ to B.tech"
         <p className="text-xs text-gray-500">
           Your data is completely secure with us. We don't share with anyone.
         </p>
-      </div>
+      </section>
       <Footer />
     </div>
   );
