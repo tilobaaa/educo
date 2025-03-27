@@ -36,7 +36,7 @@ const Setup = () => {
                 <TextInput placeholder="Qualifications"/>
                 <div className="w-5/6 flex gap-4 px-2">
                     <button className="flex-3 bg-[#FFD05A] p-4 rounded-3xl cursor-pointer ">Record or Upload a video</button>
-                    <button onClick={()=>{navigate('/teacher/profileSetup')}} className=" flex-1 bg-blue-400 p-4 rounded-3xl cursor-pointer">Next</button>
+                    <button onClick={()=>{navigate('/teacher/profileSetup')}} type="button" className=" flex-1 bg-blue-400 p-4 rounded-3xl cursor-pointer">Next</button>
                 </div>
             </form>
           </div>

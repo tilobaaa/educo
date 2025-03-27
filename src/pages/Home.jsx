@@ -9,6 +9,16 @@ import { MdOutlineFileUpload } from "react-icons/md";
 import { IoIosStarOutline } from "react-icons/io";
 import { FaQuoteLeft } from "react-icons/fa";
 import InstructorsGrid from "../components/InstructorsGrid";
+import biologyImg from '/assets/biology.jpg'
+import chemistryImg from '/assets/chemistry.jpg'
+import mathsImg from '/assets/maths.jpg'
+import graduateImg from '/assets/graduate.jpg'
+import computerImg from '/assets/computer.jpg'
+import processImg from '/assets/process.jpg'
+
+
+
+
 
 const Home = () => {
   return (
@@ -166,31 +176,37 @@ const Home = () => {
 to B.tech"
             lessons="4"
             author="Anthony Ikechukwu"
+            img={processImg}
           />
           <CourseGrid
             title="Mathematics: Basics of Mathematics"
             lessons="3"
             author="Queen Esther"
+            img={mathsImg}
           />
           <CourseGrid
             title="Social Studies: Introduction to Social Studies"
             lessons="2"
             author="Dolapo Joel"
+            img={computerImg}
           />
           <CourseGrid
             title="Computer Science: Advanced Lesson"
             lessons="6"
             author="Toluwani Isaac"
+            img={computerImg}
           />
           <CourseGrid
             title="Biology: Reproduction in Animals,Mammals & Plants"
             lessons="5"
             author="Adam Johnson"
+            img={biologyImg}
           />
           <CourseGrid
             title="Chemistry: Understanding The periodic table"
             lessons="2"
             author="Amaka Edwards"
+            img={chemistryImg}
           />
         </div>
         <div>
@@ -202,7 +218,9 @@ to B.tech"
       {/* why choose us? */}
       <div className="flex gap-8 mx-64">
         <div className="flex flex-col gap-4">
-          <div className="rounded-lg bg-orange-200 w-full flex-1"></div>
+          <div className="rounded-lg bg-orange-200 w-full flex-1">
+            <img className="w-full h-full rounded-lg" src={graduateImg} alt="" />
+          </div>
           <div className="bg-gray-100 rounded-lg text-gray-900 p-4 flex gap-4">
             <div className="p-2 bg-yellow-500 rounded-lg w-fit flex items-center justify-center">
               <IoIosStarOutline className="text-white text-2xl" />

@@ -24,8 +24,9 @@ const ProfileSetup2 = () => {
               </button>
               <button
                 onClick={() => {
-                  navigate("/teacher/profileProfileSetup2");
+                  navigate("/teacher/dashboard");
                 }}
+                type="button" 
                 className=" flex-1 bg-blue-400 p-4 rounded-3xl cursor-pointer"
               >
                 Next

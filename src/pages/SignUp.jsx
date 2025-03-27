@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 const SignUp = () => {
   const [teacher, setTeacher] = useState(false);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className="flex-1 grid grid-cols-3 px-36">
       {/* left side  */}
@@ -26,6 +26,19 @@ const SignUp = () => {
               placeholder="Your email"
             />
           </div>
+          {!teacher && (
+            <div className="relative text-gray-500">
+              <select
+                className="border border-gray-300 w-full py-4 px-2 "
+                name="Level"
+                id=""
+              >
+                <option value="--">Educational Level</option>
+                <option value="Primary">Primary</option>
+                <option value="Secondary">Secondary</option>
+              </select>
+            </div>
+          )}
           <div>
             <label htmlFor="password"></label>
             <input
@@ -45,7 +58,15 @@ const SignUp = () => {
             />
           </div>
 
-          <button onClick={()=>{teacher ? navigate('/teacher/dashboard'): navigate('/student/dashboard')}} className="bg-blue-500 text-white py-4 rounded-sm hover:cursor-pointer">
+          <button
+            onClick={() => {
+              teacher
+                ? navigate("/teacher/setup")
+                : navigate("/student/dashboard");
+            }}
+            type="button"
+            className="bg-blue-500 text-white py-4 rounded-sm hover:cursor-pointer"
+          >
             Sign up
           </button>
         </form>

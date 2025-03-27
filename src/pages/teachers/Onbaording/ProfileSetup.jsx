@@ -18,7 +18,7 @@ const ProfileSetup = () => {
             <TextInput placeholder="Upload Profile Picture" />
             <TextInput placeholder="Set Availability & Teaching Preference" />
             <div className="w-5/6 flex gap-4 px-2 items-center justify-center">
-              <button onClick={()=>{navigate('/teacher/profileSetup2')}} className="w-fit bg-blue-400 px-8 py-2 rounded-3xl cursor-pointer">
+              <button onClick={()=>{navigate('/teacher/profileSetup2')}} type="button" className="w-fit bg-blue-400 px-8 py-2 rounded-3xl cursor-pointer">
                 Next
               </button>
             </div>

@@ -72,9 +72,9 @@ const StudentDashboard = () => {
            <div>
             <h6>MY COURSES</h6>
             <div className="flex gap-4">
-              <CourseCompletionChart percentage={91} topic={'Introduction to Basic Technology'} bgColor='#9747FF'/>
-              <CourseCompletionChart percentage={25} topic={'Introduction to Basic Technology'} bgColor={'#2F80ED'}/>
-              <CourseCompletionChart percentage={65} topic={'Introduction to Basic Technology' } bgColor={'#56CCF2'}/>
+              <CourseCompletionChart percentage={91} topic={'Introduction to Basic Technology'} bgColor='rgba(151, 71, 255, 0.25)'/>
+              <CourseCompletionChart percentage={25} topic={'Introduction to Basic Technology'} bgColor={'rgba(47, 128, 237, 0.25)'}/>
+              <CourseCompletionChart percentage={65} topic={'Introduction to Basic Technology' } bgColor={'rgba(86, 204, 242, 0.25)'}/>
              
               
             </div>
